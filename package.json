@@ -1,6 +1,6 @@
 {
   "name": "@picter/timezones",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A compact but comprehensive list of timezones, based on https://www.iana.org/time-zones",
   "main": "index.js",
   "author": "Matthias Lohscheidt",
