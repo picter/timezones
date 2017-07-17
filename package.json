@@ -1,5 +1,5 @@
 {
-  "name": "timezone-list",
+  "name": "@picter/timezones",
   "version": "1.0.0",
   "description": "A compact but comprehensive list of timezones, based on https://www.iana.org/time-zones",
   "main": "index.js",
