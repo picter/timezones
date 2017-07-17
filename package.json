@@ -1,0 +1,11 @@
+{
+  "name": "timezone-list",
+  "version": "1.0.0",
+  "description": "A compact but comprehensive list of timezones, based on https://www.iana.org/time-zones",
+  "main": "index.js",
+  "author": "Matthias Lohscheidt",
+  "license": "MIT",
+  "devDependencies": {
+    "moment-timezone": "^0.5.13"
+  }
+}
