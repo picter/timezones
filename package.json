@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Matthias Lohscheidt",
   "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build-lists.js"
+  },
   "devDependencies": {
     "moment-timezone": "^0.5.13"
   }
