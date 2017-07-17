@@ -37,4 +37,4 @@ The values are extracted from [iana's time zone database](https://www.iana.org/t
 
 ## Development
 
-*iana* publishes database updates twice a year. As soon as [*moment-timezone*](http://momentjs.com/timezone) updated their data, we can update our *moment-timezone* dev-dependency and rebuild or lists with `yarn run build`.
+*iana* publishes database updates twice a year. As soon as [*moment-timezone*](http://momentjs.com/timezone) updated their data, we can update our *moment-timezone* dev-dependency and rebuild our lists with `yarn run build`.
