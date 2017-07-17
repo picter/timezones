@@ -47,7 +47,7 @@ const listData = linkedData.zones
   .sort((a, b) =>  b.offsets[0] - a.offsets[0])
   .map(zone => ({
     name: zone.name,
-    cities: [zone.name.replace(/^.*\//, ''), ...linkMap[zone.name]].map(city => city.replace('_', ' ')),
+    cities: [zone.name.replace(/^.*\//, ''), ...linkMap[zone.name]].map(city => city.replace(/_/g, ' ')),
     offset: zone.offsets[0],
   }));
 
