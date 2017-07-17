@@ -21,7 +21,7 @@ const zoneMap = data.zones.reduce(
 // build minimal filtered and linked list of time zones
 const linkedData = moment.tz.filterLinkPack(data, 2017, 2017);
 
-fs.writeFileSync(path.resolve('./data/moment-timezone-data.json'), JSON.stringify(linkedData, null, 2));
+fs.writeFileSync(path.resolve('./data/moment-timezones.json'), JSON.stringify(linkedData, null, 2));
 
 // map cities of linked timezones to their parents
 const linkMap = Object.keys(zoneMap).reduce(
